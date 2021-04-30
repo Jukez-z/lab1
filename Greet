@@ -1,0 +1,24 @@
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+import java.util.Scanner;
+
+public class Lab1 {
+
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+           
+        String firstName;
+        String lastName;
+        String location;
+        
+        //System.out.println("");
+        firstName = kb.nextLine();
+        lastName = kb.nextLine();
+        location = kb.nextLine();
+        
+        System.out.printf("Hello %s %s of %s",firstName,lastName,location);
+    } //main
+
+} // class Lab1
